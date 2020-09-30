@@ -10,3 +10,4 @@ a social links area as a footer.
 its a simple website for first timers and meant to be beginner friendly 
 users shall create components such as the navbar , skill showcase grid etc in different files for eg navbar in nav.js and skill grid in skill.js and update the css accordingly
 all components should be made in JSX format
+bundler needed to run for example parcel
