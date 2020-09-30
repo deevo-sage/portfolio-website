@@ -18,6 +18,7 @@
   --high-contrast-y2:#D4BE6A;
   --high-contrast-y3:#806915;
   --high-contrast-y4:#554300;
+filter: invert(100%);
 }
 
 body{
@@ -34,3 +35,67 @@ body{
     margin: 0;
     padding: 0;
 }
+/* navbar */
+.navbar
+{
+    position: relative;
+    z-index: 50;
+}
+.nav
+{
+   position: fixed;
+}
+
+div.nav > h1
+{   
+    position: fixed;
+    right: 10px;
+    font-size: 2.5em;
+    z-index: 50;
+}
+
+div.nav> .nav-modal
+{color: var(--high-contrast-r1);
+height: 100%;
+width: 100%;
+display: inline-flex;
+background-color: var(--high-contrast-rbg);
+z-index:49;
+position: fixed;
+top: 0;
+transition:0.7s;
+justify-content: center;
+align-items: center;
+padding-top:5; 
+opacity: 1;
+}
+
+div.nav> .nav-modal > ul > li
+{
+    font-size: 3em;
+    list-style: none;
+    padding: 1em;
+    padding-left: 0;
+    width: 100%;
+    border-bottom:var(--high-contrast-y2);
+    border-style: none;
+    border-width: 2px;
+    transition: 0.3s;
+}
+div.nav> .nav-modal > ul > li:hover
+{
+background-color: var(--high-contrast-r4);
+color:var(--high-contrast-r1);
+}
+div.nav> .nav-modal > ul
+{
+    text-align: center;
+    width: 100%;
+}
+.navr{
+    left:100%;
+}
+.navi{
+    left:0;
+}
+/* navbar end */
