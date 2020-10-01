@@ -219,4 +219,20 @@ color: var(--color-scheme-4);
     margin: 0.5em;
     padding: 0.1em;
 }
-/*skills area end/*
+/*skills area end*/
+
+
+.aboutarea{
+ padding-bottom: 2em;
+    width: 100vw;
+display: inline-flex;
+justify-content: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 2em;
+color: var(--color-scheme-4);
+}
+
+.aboutarea >div>ul >li
+{
+list-style: none;
+}
