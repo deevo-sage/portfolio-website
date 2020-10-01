@@ -1,0 +1,19 @@
+{
+    "name":"Sidharth Sahni",
+    "age":19,
+    "skill":["HTML","CSS","Javascript","React.js","Python"],
+    "Q&A":[
+        {"q":"","a":""},
+        {"q":"","a":""},
+        {"q":"","a":""},
+        {"q":"","a":""},
+        {"q":"","a":""}
+    ],
+    "projects":
+    {
+        "name":[],
+        "link":[]
+    }
+
+
+}

@@ -13,6 +13,12 @@ const App = () => {
             <div className="topbar">
                 <Top />
             </div>
+            <div className="photoarea">
+                <Photo />
+            </div>
+            <div className="skillsarea">
+                <Skills />
+            </div>
         </div>
     );
 };
