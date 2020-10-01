@@ -99,3 +99,67 @@ div.nav> .nav-modal > ul
     left:0;
 }
 /* navbar end */
+/* top  */
+.topbar
+{position: relative;
+    z-index: -1;
+}
+@media only screen and (max-width: 750px) {
+
+.top
+{
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+width: 100%;
+height: 100vh;
+
+
+}
+}
+@media only screen and (min-width: 750px) {
+
+.top
+{
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+width: 100%;
+height: 100vh;
+}
+.top>#typewriter
+{
+    
+transform: translateY(-1em) translateX(2em);
+  
+}
+}
+.top
+{
+background-color: var(--high-contrast-y3);
+align-items: center;
+display: inline-flex;
+}
+#typewriter
+{
+ font-size: 3em;  
+color: var(--high-contrast-y2);
+}
+#typewriter::before
+{
+content: "I am a";
+}
+#typewriter::after
+{content: "|";
+animation:blink 0.5s linear infinite alternate;  
+color: var(--high-contrast-y3);
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*top end */
