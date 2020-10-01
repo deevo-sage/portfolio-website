@@ -99,3 +99,124 @@ div.nav> .nav-modal > ul
     left:0;
 }
 /* navbar end */
+/* top  */
+.topbar
+{position: relative;
+    z-index: -1;
+}
+@media only screen and (max-width: 750px) {
+
+.top
+{
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+width: 100%;
+height: 100vh;
+
+
+}
+}
+@media only screen and (min-width: 750px) {
+
+.top
+{
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+width: 100%;
+height: 100vh;
+}
+.top>#typewriter
+{
+    
+transform: translateY(-1em) translateX(2em);
+  
+}
+}
+.top
+{
+background-color: var(--high-contrast-y3);
+align-items: center;
+display: inline-flex;
+}
+#typewriter
+{
+ font-size: 3em;  
+color: var(--high-contrast-y2);
+}
+#typewriter::before
+{
+content: "I am a";
+}
+#typewriter::after
+{content: "|";
+animation:blink 0.5s linear infinite alternate;  
+color: var(--high-contrast-y3);
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*top end */
+/*photoarea*/
+.photoarea
+{
+   padding-top: 4em;
+   padding-bottom: 4em;
+    width: 100%;
+    align-items: center;
+display: inline-flex;
+justify-content: center;
+}
+.photocont
+{
+    background-color: var(--color-scheme-4);
+    height: 20em;
+    width: 20em;
+    border-radius: 50%;
+    align-items: center;
+display: inline-flex;
+justify-content: center;
+
+}
+.photo 
+{
+      background-color: var(--color-scheme-1);
+    height: 19em;
+    width: 19em;
+    border-radius: 50%;
+    align-items: center;
+display: inline-flex;
+background-image: url("./sample.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: 100%;
+filter: invert(100%);
+}
+/*skills area*/
+.skillsarea
+{
+ padding-bottom: 2em;
+    width: 100vw;
+display: inline-flex;
+justify-content: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 2em;
+color: var(--color-scheme-4);
+}
+.skillsarea >div>ul >li
+{
+    list-style: none;
+    border-radius: 2em;
+    background-color: var(--color-scheme-4);
+    color: var(--color-scheme-1);
+    text-align: center;
+    margin: 0.5em;
+    padding: 0.1em;
+}
+/*skills area end/*
