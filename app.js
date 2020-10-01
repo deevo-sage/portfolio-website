@@ -4,6 +4,7 @@ import React from 'react';
 import { render } from 'react-dom';
 import Nav from './Nav';
 import Top from './typewriter';
+import Question from './questionarea';
 const App = () => {
     return (
         <div>
@@ -18,6 +19,9 @@ const App = () => {
             </div>
             <div className="skillsarea">
                 <Skills />
+            </div>
+            <div className="aboutarea">
+                <Question />
             </div>
         </div>
     );
