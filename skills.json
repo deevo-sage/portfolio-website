@@ -11,6 +11,15 @@
         "name":[],
         "link":[]
     }
-
+"social":[{
+            "icon-class": "fa fa-facebook",
+            "link": "https://www.facebook.com/"
+        },{
+            "icon-class": "fa fa-twitter",
+            "link": ""
+        },{
+            "icon-class": "fa fa-github",
+            "link": ""
+        }
 
 }
