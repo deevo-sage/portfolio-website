@@ -4,7 +4,7 @@ const Photo = () => {
 
 return(
     <div className="photocont">
-    <img className="photo" />
+    <img className="photo" alt="photo"/>
     </div>
 )
 }
